@@ -7,12 +7,12 @@ return function (App $app) {
     // Parse json, form data and xml
     $app->addBodyParsingMiddleware();
 
-    // Add routing middleware
+    // Add global middleware to app
     $app->addRoutingMiddleware();
 
     $container = $app->getContainer();
 
-    // Add error handler middleware
+    // Error handler
     $settings = $container->get(Configuration::class)->getArray('error_handler_middleware');
     $displayErrorDetails = (bool)$settings['display_error_details'];
     $logErrors = (bool)$settings['log_errors'];
