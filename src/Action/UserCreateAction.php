@@ -23,7 +23,7 @@ final class UserCreateAction
 
         // Mapping (should be done in a mapper class)
         $user = new UserCreateData();
-        $user->npm = $data['nom'];
+        $user->nom = $data['nom'];
         $user->prenom = $data['prenom'];
        // $user->date_cree = $data['last_name'];
         $user->email = $data['email'];
