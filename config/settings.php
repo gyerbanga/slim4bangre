@@ -30,14 +30,13 @@ $settings['error_handler_middleware'] = [
     'log_error_details' => true,
 ];
 
-
 // Database settings
 $settings['db'] = [
     'driver' => 'mysql',
     'host' => 'localhost',
     'username' => 'innodev',
     'database' => 'caribis_gaston_planning',
-    'password' => 'Kr47052016',
+    'password' => 'Kr47052016!',
     'charset' => 'utf8mb4',
     'collation' => 'utf8mb4_unicode_ci',
     'flags' => [
