@@ -18,6 +18,19 @@ final class UserCreateAction
 
     public function __invoke(ServerRequest $request, Response $response): Response
     {
+/*        $html = <<<HTML
+<html>
+    <form method="POST">
+        <label>Name: <input name="name"></label>
+        <label>Country: <input name="country"></label>
+        <input type="submit">
+    </form>
+</html>
+HTML;
+    $response->getBody()->write($html);
+    return $response;
+    */
+
         // Collect input from the HTTP request
         $data = (array)$request->getParsedBody();
 

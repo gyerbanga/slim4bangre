@@ -7,7 +7,8 @@ final class UserData
     /**
      * @var int
      */
-    public $id_tech;
+   /* public $id_tech;*/
+    public $id;
 
     /** @var string */
     public $nom;
