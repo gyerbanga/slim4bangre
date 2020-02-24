@@ -7,6 +7,9 @@ use Slim\App;
 $test=require_once __DIR__ . '/../vendor/autoload.php';
 
 
+$test=require_once __DIR__ . '/../vendor/autoload.php';
+
+
 $containerBuilder = new ContainerBuilder();
 
 // Set up settings
