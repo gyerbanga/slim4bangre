@@ -17,8 +17,6 @@ return [
         // Optional: Set the base path to run the app in a subdirectory.
         $app->setBasePath('/slim4bangre');
 
-var_dump($app);
-exit;
         return $app;
     },
 
